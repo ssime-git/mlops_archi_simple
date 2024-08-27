@@ -15,7 +15,7 @@ Dans ce tutoriel, nous allons créer un projet MLOps complet en utilisant le jeu
    numpy 
    pandas 
    scikit-learn 
-   dvc 
+   dvc[s3]
    mlflow 
    dagshub
    ```
@@ -47,8 +47,15 @@ Dans ce tutoriel, nous allons créer un projet MLOps complet en utilisant le jeu
    ```
 
 3. Initialisez DVC:
+
+   From DVC, get the line with the token and the endpointurl:
+   ![alt text](image.png)
+   
    ```sh
-   dvc init
+   dvc remote add origin s3://dvc
+   dvc remote modify origin endpointurl https://dagshub.com/ssime-git/mlops_archi_simple.s3
+   dvc remote modify origin --local access_key_id your_token
+   dvc remote modify origin --local secret_access_key your_token
    ```
 
 ## Étape 3: Configuration de DagShub

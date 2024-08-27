@@ -1,2 +1,5 @@
+[core]
+    remote = origin
 ['remote "origin"']
-    url = https://dagshub.com/ssime-git/mlops_archi_simple.dvc
+    url = s3://dvc
+    endpointurl = https://dagshub.com/ssime-git/mlops_archi_simple.s3
