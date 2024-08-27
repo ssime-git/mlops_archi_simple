@@ -112,18 +112,18 @@ Dans cette partie, nous allons créer un modèle de classification pour les donn
 ## Étape 5: Ajout des fichiers au contrôle de version
 
 1. Ajoutez les nouveaux fichiers à Git:
-   ```
+   ```sh
    git add .
    ```
 
 2. Committez les changements:
-   ```
+   ```sh
    git commit -m "Add model training script and MLflow integration"
    ```
 
 3. Poussez les changements vers DagShub:
-   ```
-   git push origin main
+   ```sh
+   git push
    ```
 
 Félicitations! Vous avez maintenant créé un modèle de classification pour les données Iris, l'avez entraîné, et avez utilisé MLflow pour suivre vos expériences. Dans la prochaine partie, nous nous concentrerons sur la création d'un pipeline d'entraînement automatisé avec GitHub Actions.
