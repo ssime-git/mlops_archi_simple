@@ -50,7 +50,7 @@ Dans ce tutoriel, nous allons créer un projet MLOps complet en utilisant le jeu
 
    From DVC, get the line with the token and the endpointurl:
    ![alt text](image.png)
-   
+
    ```sh
    dvc remote add origin s3://dvc
    dvc remote modify origin endpointurl https://dagshub.com/ssime-git/mlops_archi_simple.s3
@@ -78,18 +78,7 @@ Créez la structure de dossiers suivante:
 mkdir -p data/raw data/processed src/data src/models src/utils tests configs
 ```
 
-## Étape 5: Configuration de MLflow
-
-1. Créez un fichier de configuration pour MLflow:
-   ```sh
-   echo "mlflow:
-     tracking_uri: https://dagshub.com/ssime-git/mlops_archi_simple.mlflow
-     experiment_name: iris_classification" > configs/mlflow_config.yml
-   ```
-
-2. Remplacez `votre-nom-utilisateur` (dans notre cas ssime-git) par votre nom d'utilisateur DagShub.
-
-## Étape 6: Premier commit et push
+## Étape 5: Premier commit et push
 
 1. Ajoutez tous les fichiers à Git:
    ```sh

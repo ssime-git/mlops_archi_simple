@@ -1,0 +1,15 @@
+2024-08-27 19:15:49,536 - train_model - INFO - Démarrage du script...
+2024-08-27 19:15:49,537 - train_model - INFO - Variables d'environnement chargées.
+2024-08-27 19:15:49,537 - train_model - INFO - MLflow configuré avec succès.
+2024-08-27 19:15:49,787 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-27 19:15:49,787 - train_model - INFO - Chargement des données...
+2024-08-27 19:15:49,799 - train_model - INFO - Données chargées avec succès.
+2024-08-27 19:15:50,594 - train_model - INFO - Entraînement du modèle...
+2024-08-27 19:15:50,664 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-27 19:15:50,664 - train_model - INFO - Évaluation du modèle...
+2024-08-27 19:15:50,668 - train_model - INFO - Modèle évalué avec succès.
+2024-08-27 19:15:55,443 - train_model - INFO - Accuracy: 1.0
+2024-08-27 19:15:55,443 - train_model - INFO - Precision: 1.0
+2024-08-27 19:15:55,444 - train_model - INFO - Recall: 1.0
+2024-08-27 19:15:55,444 - train_model - INFO - F1-score: 1.0
+2024-08-27 19:15:55,933 - train_model - INFO - Fin du script.
