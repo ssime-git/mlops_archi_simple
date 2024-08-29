@@ -13,3 +13,239 @@
 2024-08-27 19:15:55,444 - train_model - INFO - Recall: 1.0
 2024-08-27 19:15:55,444 - train_model - INFO - F1-score: 1.0
 2024-08-27 19:15:55,933 - train_model - INFO - Fin du script.
+2024-08-27 19:42:56,343 - train_model - INFO - Variables d'environnement chargées.
+2024-08-27 19:42:56,343 - train_model - INFO - MLflow configuré avec succès.
+2024-08-27 19:42:56,588 - train_model - ERROR - Erreur lors du chargement du modèle ou de la prédiction : RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2024-08-27 19:54:38,697 - train_model - INFO - Starting the script...
+2024-08-27 19:54:38,698 - train_model - INFO - Environment variables loaded.
+2024-08-27 19:54:38,698 - train_model - INFO - MLflow configured successfully.
+2024-08-27 19:54:39,126 - train_model - INFO - Latest run ID: 41d8a9041ab842b5a716864702075a43
+2024-08-27 19:54:39,942 - train_model - INFO - Model iris_classification_model version 1 is now in Production
+2024-08-27 19:54:39,943 - train_model - INFO - Script finished.
+2024-08-27 19:58:37,636 - train_model - INFO - Variables d'environnement chargées.
+2024-08-27 19:58:37,636 - train_model - INFO - MLflow configuré avec succès.
+2024-08-27 19:58:37,895 - train_model - ERROR - Erreur lors du chargement du modèle ou de la prédiction : RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2024-08-27 19:59:26,519 - train_model - INFO - Variables d'environnement chargées.
+2024-08-27 19:59:26,519 - train_model - INFO - MLflow configuré avec succès.
+2024-08-27 19:59:29,150 - train_model - INFO - Modèle 'iris_classification_model' (stage: Production) chargé avec succès.
+2024-08-27 19:59:29,152 - train_model - ERROR - Erreur lors du chargement du modèle ou de la prédiction : The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- petal_length
+- petal_width
+- sepal_length
+- sepal_width
+Feature names seen at fit time, yet now missing:
+- petal length (cm)
+- petal width (cm)
+- sepal length (cm)
+- sepal width (cm)
+
+2024-08-27 20:01:09,034 - train_model - INFO - Variables d'environnement chargées.
+2024-08-27 20:01:09,034 - train_model - INFO - MLflow configuré avec succès.
+2024-08-27 20:01:11,241 - train_model - INFO - Modèle 'iris_classification_model' (stage: Production) chargé avec succès.
+2024-08-27 20:01:11,245 - train_model - INFO - Prédiction effectuée : [0.]
+2024-08-29 16:22:35,144 - train_model - INFO - Démarrage du script...
+2024-08-29 16:22:35,145 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 16:22:35,145 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 16:22:35,145 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 16:22:35,761 - train_model - ERROR - Erreur lors de la récupération des données: SCM error
+2024-08-29 16:22:35,763 - train_model - INFO - Fin du script.
+2024-08-29 16:32:26,828 - train_model - INFO - Démarrage du script...
+2024-08-29 16:32:26,828 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 16:32:26,828 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 16:32:26,828 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 16:32:27,453 - train_model - ERROR - Erreur lors de la récupération des données: SCM error
+2024-08-29 16:32:27,454 - train_model - INFO - Fin du script.
+2024-08-29 16:33:07,250 - train_model - INFO - Démarrage du script...
+2024-08-29 16:33:07,250 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 16:33:07,250 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 16:33:07,250 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 16:33:08,187 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 16:33:08,427 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 16:33:08,427 - train_model - INFO - Chargement des données...
+2024-08-29 16:33:08,436 - train_model - INFO - Données chargées avec succès.
+2024-08-29 16:33:09,250 - train_model - INFO - Entraînement du modèle...
+2024-08-29 16:33:09,316 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 16:33:09,316 - train_model - INFO - Évaluation du modèle...
+2024-08-29 16:33:09,320 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 16:33:14,004 - train_model - INFO - Accuracy: 1.0
+2024-08-29 16:33:14,004 - train_model - INFO - Precision: 1.0
+2024-08-29 16:33:14,005 - train_model - INFO - Recall: 1.0
+2024-08-29 16:33:14,005 - train_model - INFO - F1-score: 1.0
+2024-08-29 16:33:14,404 - train_model - INFO - Fin du script.
+2024-08-29 15:17:27,064 - train_model - INFO - Démarrage du script...
+2024-08-29 15:17:27,065 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:17:27,066 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:17:27,066 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:17:27,919 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:17:28,209 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:17:28,210 - train_model - INFO - Chargement des données...
+2024-08-29 15:17:28,220 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:17:28,966 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:17:29,037 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:17:29,037 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:17:29,041 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:17:33,947 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:17:33,949 - train_model - INFO - Precision: 1.0
+2024-08-29 15:17:33,951 - train_model - INFO - Recall: 1.0
+2024-08-29 15:17:33,953 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:17:34,361 - train_model - INFO - Fin du script.
+2024-08-29 15:17:35,590 - train_model - INFO - Démarrage du script...
+2024-08-29 15:17:35,590 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:17:35,590 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:17:35,590 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:17:36,381 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:17:36,605 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:17:36,605 - train_model - INFO - Chargement des données...
+2024-08-29 15:17:36,610 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:17:37,271 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:17:37,343 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:17:37,344 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:17:37,348 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:17:42,117 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:17:42,118 - train_model - INFO - Precision: 1.0
+2024-08-29 15:17:42,119 - train_model - INFO - Recall: 1.0
+2024-08-29 15:17:42,119 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:17:42,543 - train_model - INFO - Fin du script.
+2024-08-29 15:17:43,833 - train_model - INFO - Démarrage du script...
+2024-08-29 15:17:43,833 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:17:43,834 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:17:43,834 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:17:44,633 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:17:44,877 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:17:44,877 - train_model - INFO - Chargement des données...
+2024-08-29 15:17:44,883 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:17:45,568 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:17:45,633 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:17:45,633 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:17:45,637 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:17:50,411 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:17:50,412 - train_model - INFO - Precision: 1.0
+2024-08-29 15:17:50,413 - train_model - INFO - Recall: 1.0
+2024-08-29 15:17:50,414 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:17:50,809 - train_model - INFO - Fin du script.
+2024-08-29 15:17:52,358 - train_model - INFO - Démarrage du script...
+2024-08-29 15:17:52,359 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:17:52,359 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:17:52,359 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:17:53,122 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:17:53,385 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:17:53,386 - train_model - INFO - Chargement des données...
+2024-08-29 15:17:53,392 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:17:54,080 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:17:54,152 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:17:54,153 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:17:54,157 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:17:58,971 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:17:58,972 - train_model - INFO - Precision: 1.0
+2024-08-29 15:17:58,972 - train_model - INFO - Recall: 1.0
+2024-08-29 15:17:58,973 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:17:59,433 - train_model - INFO - Fin du script.
+2024-08-29 15:32:00,221 - train_model - INFO - Démarrage du script...
+2024-08-29 15:32:00,221 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:32:00,221 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:32:00,222 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:32:01,394 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:32:01,686 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:32:01,687 - train_model - INFO - Chargement des données...
+2024-08-29 15:32:01,698 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:32:02,413 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:32:02,487 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:32:02,487 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:32:02,491 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:32:07,409 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:32:07,410 - train_model - INFO - Precision: 1.0
+2024-08-29 15:32:07,410 - train_model - INFO - Recall: 1.0
+2024-08-29 15:32:07,411 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:32:07,862 - train_model - INFO - Fin du script.
+2024-08-29 15:33:03,761 - train_model - INFO - Démarrage du script...
+2024-08-29 15:33:03,762 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:33:03,762 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:33:03,762 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:33:04,743 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:33:05,020 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:33:05,021 - train_model - INFO - Chargement des données...
+2024-08-29 15:33:05,027 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:33:05,753 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:33:05,823 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:33:05,823 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:33:05,827 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:33:10,673 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:33:10,673 - train_model - INFO - Precision: 1.0
+2024-08-29 15:33:10,673 - train_model - INFO - Recall: 1.0
+2024-08-29 15:33:10,673 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:33:11,065 - train_model - INFO - Fin du script.
+2024-08-29 15:38:22,440 - train_model - INFO - Démarrage du script...
+2024-08-29 15:38:22,441 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:38:22,441 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:38:22,442 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:38:23,368 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:38:23,639 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:38:23,640 - train_model - INFO - Chargement des données...
+2024-08-29 15:38:23,647 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:38:24,331 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:38:24,383 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:38:24,383 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:38:24,388 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:38:29,365 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:38:29,366 - train_model - INFO - Precision: 1.0
+2024-08-29 15:38:29,366 - train_model - INFO - Recall: 1.0
+2024-08-29 15:38:29,367 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:38:29,831 - train_model - INFO - Fin du script.
+2024-08-29 15:40:40,186 - train_model - INFO - Démarrage du script...
+2024-08-29 15:40:40,186 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:40:40,187 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:40:40,187 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:40:41,736 - train_model - ERROR - Erreur lors de la récupération des données: Command '['dvc', 'pull']' returned non-zero exit status 1.
+2024-08-29 15:40:41,736 - train_model - INFO - Fin du script.
+2024-08-29 15:46:17,524 - train_model - INFO - Démarrage du script...
+2024-08-29 15:46:17,524 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:46:17,525 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:46:17,525 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:46:18,507 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:46:18,776 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:46:18,777 - train_model - INFO - Chargement des données...
+2024-08-29 15:46:18,785 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:46:19,505 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:46:19,569 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:46:19,569 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:46:19,573 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:46:24,383 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:46:24,384 - train_model - INFO - Precision: 1.0
+2024-08-29 15:46:24,385 - train_model - INFO - Recall: 1.0
+2024-08-29 15:46:24,385 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:46:24,772 - train_model - INFO - Fin du script.
+2024-08-29 15:57:14,382 - train_model - INFO - Démarrage du script...
+2024-08-29 15:57:14,384 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 15:57:14,384 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 15:57:14,384 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 15:57:15,403 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 15:57:15,638 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 15:57:15,638 - train_model - INFO - Chargement des données...
+2024-08-29 15:57:15,643 - train_model - INFO - Données chargées avec succès.
+2024-08-29 15:57:16,337 - train_model - INFO - Entraînement du modèle...
+2024-08-29 15:57:16,403 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 15:57:16,403 - train_model - INFO - Évaluation du modèle...
+2024-08-29 15:57:16,407 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 15:57:21,333 - train_model - INFO - Accuracy: 1.0
+2024-08-29 15:57:21,334 - train_model - INFO - Precision: 1.0
+2024-08-29 15:57:21,335 - train_model - INFO - Recall: 1.0
+2024-08-29 15:57:21,336 - train_model - INFO - F1-score: 1.0
+2024-08-29 15:57:21,769 - train_model - INFO - Fin du script.
+2024-08-29 16:03:45,464 - train_model - INFO - Démarrage du script...
+2024-08-29 16:03:45,464 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 16:03:45,464 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 16:03:45,464 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 16:03:46,528 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 16:03:46,792 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 16:03:46,793 - train_model - INFO - Chargement des données...
+2024-08-29 16:03:46,800 - train_model - INFO - Données chargées avec succès.
+2024-08-29 16:03:47,510 - train_model - INFO - Entraînement du modèle...
+2024-08-29 16:03:47,582 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 16:03:47,582 - train_model - INFO - Évaluation du modèle...
+2024-08-29 16:03:47,587 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 16:03:52,469 - train_model - INFO - Accuracy: 1.0
+2024-08-29 16:03:52,470 - train_model - INFO - Precision: 1.0
+2024-08-29 16:03:52,470 - train_model - INFO - Recall: 1.0
+2024-08-29 16:03:52,471 - train_model - INFO - F1-score: 1.0
+2024-08-29 16:03:52,909 - train_model - INFO - Fin du script.

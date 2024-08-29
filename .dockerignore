@@ -1,0 +1,6 @@
+.env
+data/processed
+data/raw
+tutorial
+venv
+.dvc/config.local

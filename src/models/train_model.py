@@ -1,12 +1,25 @@
+# Add the root directory to PYTHONPATH
+import sys
 import os
 import mlflow
-import sys
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-import pandas as pd
-# Add the root directory to PYTHONPATH
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+
+# modèles
+from sklearn.ensemble import RandomForestClassifier
+
+# métriques
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
+# pandas
+import pandas as pd
+
+# logging
 from src.utils.logging_config import setup_logging
+
+# data
+from src.data.fetch_data import fetch_data
+
+# dotenv
 from dotenv import load_dotenv
 
 def load_data():
@@ -52,6 +65,15 @@ def main():
     mlflow.set_tracking_uri(f"https://dagshub.com/{repo_owner}/{repo_name}.mlflow")
     logger.info("MLflow configuré avec succès.")
 
+    # Récupération des données depuis DagShub
+    try:
+        logger.info("Récupération des données depuis DagShub...")
+        fetch_data()
+        logger.info("Données récupérées avec succès.")
+    except Exception as e:
+        logger.error(f"Erreur lors de la récupération des données: {e}")
+        return
+    
     try:
         mlflow.set_experiment("iris_classification")
         logger.info("Expérience MLflow configurée avec succès.")
