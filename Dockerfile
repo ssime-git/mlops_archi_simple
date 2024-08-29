@@ -12,9 +12,3 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le reste du code de l'application dans le conteneur
 COPY . .
-
-# Exposer le port (si nécessaire, par exemple pour un serveur web)
-# EXPOSE 5000
-
-# Définir la commande par défaut pour exécuter le script d'entraînement
-#CMD ["python", "src/models/train_model.py"]

@@ -1,6 +1,6 @@
 .env
 data/processed
-data/raw
+#data/raw
 tutorial
 venv
 .dvc/config.local

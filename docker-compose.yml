@@ -1,10 +1,24 @@
 version: '3.8'
 
 services:
+  iris_model_fetch_nd_preprocess:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./logs:/app/logs
+      - dvc_config:/app/.dvc
+    secrets:
+      - dvc_config_local
+    env_file:
+      - .env
+    restart: no
+    command: ["sh", "-c", "cp /run/secrets/dvc_config_local /app/.dvc/config.local && python src/data/fetch_nd_preprocess.py"]
+
   iris_model_training:
     build:
       context: .
-      dockerfile: Dockerfile.train
+      dockerfile: Dockerfile
     volumes:
       - ./logs:/app/logs
       - dvc_config:/app/.dvc
@@ -14,6 +28,8 @@ services:
       - .env
     restart: no
     command: ["sh", "-c", "cp /run/secrets/dvc_config_local /app/.dvc/config.local && python src/models/train_model.py"]
+    depends_on:
+      - iris_model_fetch_nd_preprocess
 
 secrets:
   dvc_config_local:

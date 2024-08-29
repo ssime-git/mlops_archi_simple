@@ -249,3 +249,53 @@ Feature names seen at fit time, yet now missing:
 2024-08-29 16:03:52,470 - train_model - INFO - Recall: 1.0
 2024-08-29 16:03:52,471 - train_model - INFO - F1-score: 1.0
 2024-08-29 16:03:52,909 - train_model - INFO - Fin du script.
+2024-08-29 19:07:51,586 - train_model - INFO - Récupération des données...
+2024-08-29 19:07:51,592 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 19:07:51,592 - train_model - INFO - Prétraitement des données...
+2024-08-29 19:09:24,543 - train_model - INFO - Récupération des données...
+2024-08-29 19:09:24,544 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 19:09:24,544 - train_model - INFO - Prétraitement des données...
+2024-08-29 19:09:24,544 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 19:09:24,544 - train_model - INFO - Début du script de prétraitement.
+2024-08-29 19:09:24,546 - train_model - INFO - Séparation des features et de la cible.
+2024-08-29 19:09:24,547 - train_model - INFO - Séparation des données en ensembles d'entraînement et de test.
+2024-08-29 19:09:24,547 - train_model - INFO - Division des données en ensembles d'entraînement et de test.
+2024-08-29 19:09:24,548 - train_model - INFO - Sauvegarde des données traitées.
+2024-08-29 19:09:24,548 - train_model - INFO - Sauvegarde des données traitées.
+2024-08-29 19:09:24,550 - train_model - INFO - Ajout des fichiers à DVC.
+2024-08-29 19:09:24,550 - train_model - INFO - Ajout des fichiers à DVC...
+2024-08-29 19:09:24,989 - train_model - INFO - Envoi des données vers le stockage distant DVC...
+2024-08-29 19:09:26,551 - train_model - INFO - Prétraitement des données terminé.
+2024-08-29 19:09:26,551 - train_model - INFO - Données prétraitées avec succès.
+2024-08-29 17:17:41,613 - train_model - INFO - Récupération des données...
+2024-08-29 17:17:41,620 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 17:17:41,620 - train_model - INFO - Prétraitement des données...
+2024-08-29 17:17:41,621 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 17:17:41,622 - train_model - INFO - Début du script de prétraitement.
+2024-08-29 17:17:41,626 - train_model - INFO - Séparation des features et de la cible.
+2024-08-29 17:17:41,632 - train_model - INFO - Séparation des données en ensembles d'entraînement et de test.
+2024-08-29 17:17:41,633 - train_model - INFO - Division des données en ensembles d'entraînement et de test.
+2024-08-29 17:17:41,635 - train_model - INFO - Sauvegarde des données traitées.
+2024-08-29 17:17:41,636 - train_model - INFO - Sauvegarde des données traitées.
+2024-08-29 17:17:41,638 - train_model - INFO - Ajout des fichiers à DVC.
+2024-08-29 17:17:41,638 - train_model - INFO - Ajout des fichiers à DVC...
+2024-08-29 17:17:41,959 - train_model - INFO - Démarrage du script...
+2024-08-29 17:17:41,960 - train_model - INFO - Variables d'environnement chargées.
+2024-08-29 17:17:41,961 - train_model - INFO - MLflow configuré avec succès.
+2024-08-29 17:17:41,962 - train_model - INFO - Récupération des données depuis DagShub...
+2024-08-29 17:17:42,526 - train_model - INFO - Envoi des données vers le stockage distant DVC...
+2024-08-29 17:17:44,243 - train_model - INFO - Prétraitement des données terminé.
+2024-08-29 17:17:44,246 - train_model - INFO - Données prétraitées avec succès.
+2024-08-29 17:17:45,211 - train_model - INFO - Données récupérées avec succès.
+2024-08-29 17:17:45,501 - train_model - INFO - Expérience MLflow configurée avec succès.
+2024-08-29 17:17:45,501 - train_model - INFO - Chargement des données...
+2024-08-29 17:17:45,504 - train_model - INFO - Données chargées avec succès.
+2024-08-29 17:17:46,251 - train_model - INFO - Entraînement du modèle...
+2024-08-29 17:17:46,307 - train_model - INFO - Modèle entraîné avec succès.
+2024-08-29 17:17:46,307 - train_model - INFO - Évaluation du modèle...
+2024-08-29 17:17:46,312 - train_model - INFO - Modèle évalué avec succès.
+2024-08-29 17:17:51,243 - train_model - INFO - Accuracy: 1.0
+2024-08-29 17:17:51,244 - train_model - INFO - Precision: 1.0
+2024-08-29 17:17:51,245 - train_model - INFO - Recall: 1.0
+2024-08-29 17:17:51,246 - train_model - INFO - F1-score: 1.0
+2024-08-29 17:17:51,652 - train_model - INFO - Fin du script.
